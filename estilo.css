@@ -5,10 +5,10 @@ body{
     display: grid;
     grid-template-columns: 400px 400px 400px 400px;
     grid-template-rows: 300px 400px 400px 400px;
-    grid-template-areas:"area1 area1 area1 area1"
-                        "area2 area3 area3 area3"
-                        "area4 area4 area4 area4"
-                        "area6 area6 area6 area6";
+    grid-template-areas:"area1 area1 area1 area1 area1"
+                        "area2 area3 area3 area4 area5"
+                        "area6 area6 area7 area7 area8"
+                        "area9 area9 area9 area9 area9";
 }
 
 .encabezado{
@@ -17,6 +17,7 @@ body{
     height: 200px;
 
     grid-area: area1;
+    
 }
 #logo{
     width: 15%;
@@ -148,7 +149,7 @@ grid-area: area3;
     justify-content: space-evenly;
     align-items: center;
 
-    grid-area: area6;
+    grid-area: area9;
 }
 #envio{
     text-align: center;
