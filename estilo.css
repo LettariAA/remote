@@ -3,8 +3,8 @@ body{
     margin-right: 10%;
     background-color: rgb(34, 34, 34);
     display: grid;
-    grid-template-columns: 400px 400px 400px 400px;
-    grid-template-rows: 300px 400px 400px 400px;
+    grid-template-columns: 400px 400px 400px 400px 400px;
+    grid-template-rows: 300px 400px 400px 400px 400px;
     grid-template-areas:"area1 area1 area1 area1 area1"
                         "area2 area3 area3 area4 area5"
                         "area6 area6 area7 area7 area8"
@@ -14,7 +14,6 @@ body{
 .encabezado{
     background-color: rgb(102, 102, 107);
     display: flex;
-    height: 200px;
 
     grid-area: area1;
     
@@ -42,6 +41,27 @@ body{
     padding: 0;
 }
 
+#Yo_Galgo{
+    grid-area: area7;
+}
+
+#Nosotros_G{
+    grid-area: area6;
+    color: rgb(198, 155, 211);
+    font-size: 30px;
+    margin: 20px;
+}
+    
+#TXT_NT{
+    grid-area: area2;
+    font-size: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: lightblue;
+}
+
+#Fotot_NT{
+    grid-area: area3;
+}
 
 
 
@@ -93,7 +113,6 @@ nav{
 
 grid-area: area3;
 }
-
 
 
 
